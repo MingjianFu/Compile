@@ -52,7 +52,7 @@ void print()
         fin.get(ch);
     }
     fin.clear();//file读结束后，eof()返回真值时，file的错误标志被设置为eofbit，于是，后续所有针对file1的操作都不能得到预期的结果，比如tellp、tellg、seekg、seekp等，
-    //因此，再进行其他针对file的操作前，需要清除该错误标志~~~!
+    //因此，再进行其他针对file的操作前，   需要清除该错误标志~~~!
     fin.seekg(0);
     
 
