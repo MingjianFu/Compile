@@ -297,3 +297,4 @@ string getToken() {
    
     return str;
 }
+//version 1.0
