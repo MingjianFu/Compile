@@ -68,6 +68,8 @@ void program()
     block();
     if (flagerror == 1)
     {
+
+
         error();
         return;
     }
