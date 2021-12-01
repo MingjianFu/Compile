@@ -17,6 +17,7 @@ void match(string str);
 string getToken();
 string word;
 ifstream fin;
+//加注释
 
 int flagerror = 0,flag_error = 0;
 void main()
