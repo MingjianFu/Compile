@@ -19,7 +19,7 @@ string word;
 ifstream fin;
 //加注释
 
-int flagerror = 0,flag_error = 0;
+int flagerror = 0;
 void main()
 {
     fin.open("Finaltable.txt");
@@ -40,7 +40,7 @@ void main()
 
 void error()
 {
-    flag_error = 1;
+   
     cout << "出现错误，终止分析！" << endl;
 }
 void print()

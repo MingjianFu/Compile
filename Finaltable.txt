@@ -1,0 +1,8 @@
+{ 
+id = num ; 
+while ( id <= num ) 
+{ 
+id = id + id ; 
+id = num ; 
+} 
+} 
